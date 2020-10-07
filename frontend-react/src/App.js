@@ -32,26 +32,38 @@ function App() {
 
   return (
     <div className="App">
-      {/* amount */}
-      <form>
-        <input
-          type="text"
-          placeholder="Amount"
-          value={amount}
-          onChange={(e) => setAmount(e.target.value)}
-        />
-        {/* percentage */}
-        <input
-          type="text"
-          placeholder="Percent"
-          value={percent}
-          onChange={(e) => setPercent(e.target.value)}
-        />
+      <div className="container">
+        <h1>Trial</h1>
+      
 
-        <button onClick={calculateTip}>Send</button>
+      <form>
+      <div className="form-row">
+        <div className="form-group col-md-6">
+          <label>Amount</label>
+          <input
+            type="text"
+            className="form-control"
+            placeholder="Amount"
+            value={amount}
+            onChange={(e) => setAmount(e.target.value)}
+          />
+        </div>
+        <div className="form-group col-md-6">
+          <label>Percent</label>
+          <input
+            type="text"
+            className="form-control"
+            placeholder="Percent"
+            value={percent}
+            onChange={(e) => setPercent(e.target.value)}
+          />
+        </div>
+      </div>    
+        <button className="btn btn-primary btn-lg btn-block" onClick={calculateTip}>Send</button>
         <h1>{tip}</h1>
-        {/* output */}
+        
       </form>
+      </div>
     </div>
   );
 }
