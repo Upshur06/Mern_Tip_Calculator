@@ -1,1 +1,59 @@
+.App {
+  border: 3px solid;
+  width: 99%;
+  margin: auto;
+  background-color: #eee6fa;
+  height: 100vh;
+  z-index: -1;
+}
+
+.container {
+  border: 2px solid blue;
+  width: 30vw;
+  margin-top: 200px;
+  padding: 10px 30px 30px 0;
+  background-color: white;
+  box-shadow: 8px 8px 7px #b7b3bd;
+}
+
+#header {
+  letter-spacing: 18px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.form-group{
+    margin: auto;
+    margin-top: 30px;
+}
+
+form{
+    margin-bottom: 50px;
+}
+
+.jumbotron {
+  margin-top: 30px;
+  text-align: center;
+}
+
+button {
+  border: 2px solid;
+  /* width: 40vw; */
+  height: 8vh;
+  background-color: #42376e;
+  margin: 0 auto;
+}
+
+h2 {
+  font-weight: 900;
+  font-size: 25px;
+  color: white;
+  letter-spacing: 10px;
+}
+
+.button-container{
+    border: 2px solid;
+    width: 50vw;
+    margin: auto;
+}
 
